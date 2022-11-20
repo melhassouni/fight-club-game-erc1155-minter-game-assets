@@ -21,10 +21,10 @@ const Contact = () => {
                         </div>
                         
                         <div className=" flex flex-1 justify-center items-center my-2">
-                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2"  href="https://www.youtube.com/channel/UC83FST0YohVKKNY3anTe91A"> <FaDiscord className="fill-[#a700ff]" size="1em" /> </a>
-                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2" href="https://www.twitter.com"> <BsTwitter className="fill-[#a700ff]" size="1em" /> </a>
-                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2" href="www.google.com"> <FiInstagram className="fill-[#a700ff] stroke-white" size="1em" /> </a>
-                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2" href="www.google.com"> <IoLogoYoutube className="fill-[#a700ff]" size="1em" /> </a>
+                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2"  href="#"> <FaDiscord className="fill-[#a700ff]" size="1em" /> </a>
+                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2" href="#"> <BsTwitter className="fill-[#a700ff]" size="1em" /> </a>
+                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2" href="#"> <FiInstagram className="fill-[#a700ff] stroke-white" size="1em" /> </a>
+                            <a className=" mx-4 bg-[#ffffff] rounded-full p-2" href="#"> <IoLogoYoutube className="fill-[#a700ff]" size="1em" /> </a>
                         </div>
                     </div>
             </div>
