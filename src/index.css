@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "monumentended-light";
+  src: url("assets/fonts/MONUMENTEXTENDED-LIGHT.OTF");
+  }
+@font-face {
+  font-family: "monumentended-regular";
+  src: url("assets/fonts/MONUMENTEXTENDED-REGULAR.OTF");
+  }
+@font-face {
+  font-family: "monumentended-black";
+  src: url("assets/fonts/MONUMENTEXTENDED-BLACK.OTF");
+  }
+@font-face {
+  font-family: "monumentended-extrablack";
+  src: url("assets/fonts/MONUMENTEXTENDED-Ultrabold.otf");
+  }
+@font-face {
+  font-family: "abstractslab-regular";
+  src: url("assets/fonts/abstract_slab.ttf");
+  }
+
+.monumentended-light{
+  font-family: monumentended-light;
+}
+
+.monumentended-regular{
+  font-family: monumentended-regular;
+}
+
+.monumentended-black{
+  font-family: monumentended-black;
+}
+
+.monumentended-extrablack{
+  font-family: monumentended-extrablack;
+}
+
+.abstractslab-regular{
+  font-family: abstractslab-regular;
+}
+
+.nft-card{
+  box-shadow: 1em 1em #ffffff;
+}
+
+@keyframes spinner {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 10px solid #f3f3f3; /* Light grey */
+  border-top: 10px solid #383636; /* Blue */
+  border-radius: 50%;
+  animation: spinner 1.5s linear infinite;
+}
+
+.spinner-container {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 350px;
+}
+
+.bg-image-game{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(56, 16, 233, 0.5)) , url(assets/images/bg-game.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gradient-bg-welcome{
+  background: rgb(221,224,244);
+  background: linear-gradient(142deg, rgba(221,224,244,1) 0%, rgba(26,46,85,1) 100%);
+}
+.flipImage {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
